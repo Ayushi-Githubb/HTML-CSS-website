@@ -1,0 +1,70 @@
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+.nav li {
+    float: left;
+  }
+  
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.nav li a:hover:not(.active) {
+   background-color: #111;
+  }
+  
+.active {
+    background-color: #04AA6D;
+  }
+
+h1{
+    text-shadow: 2px 2px 5px red;
+    font-family: 'Times New Roman', serif;
+    text-align: center;
+    font-size: 70px;
+}
+
+img#volley{
+    border: 10px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 1em;
+  
+}
+
+.body{
+    margin: 3em;
+}
+
+h2#heading{
+    font-family:  Georgia, serif;
+    text-align: center;
+    font-size: 50px;
+    border-style: outset;
+    border-width: 6px;
+}
+
+.subhead{
+  font-family: Georgia, serif;
+  font-size: 40px;
+}
+
+.skills{
+  font-family: Georgia, serif;
+  font-size: 30px;
+}
+p{
+  
+  font-size: 16px;
+}
