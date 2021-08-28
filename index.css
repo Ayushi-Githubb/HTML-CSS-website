@@ -46,6 +46,11 @@ h1{
     font-size: 70px;
 }
 
+h3{
+    font-family: Georgia, serif;
+    font-size: 30px;
+}
+
 img#volley{
     border: 10px solid black;
     display: block;
@@ -61,6 +66,7 @@ img#volley{
 body{
     
     background-color: rgb(204, 198, 198);
+    text-align: justify;
 }
 
 h2#heading{
@@ -74,6 +80,7 @@ h2#heading{
 .subhead{
   font-family: Georgia, serif;
   font-size: 40px;
+  text-shadow: 2px 2px 5px rgb(126, 40, 238);
 }
 
 .skills{
@@ -86,12 +93,55 @@ p{
 }
 .imgright{
   float: right;
+  margin: 0px 3px 15px 25px ;
+  border: 1px solid black;
   
-  margin: 0px 3px 0px 15px ;
+}
+
+.fix{
+  width: 200px;
+  padding: 5px;
+  overflow: auto;
+  text-align: justify;
 }
 
 .imgleft{
-  margin-right:10px;
-  margin-left: 5px;
+  float: left;
+  margin: 0px 25px 15px 5px;
+  border: 1px solid black;
 }
 
+.border{
+  border: 1px solid black;
+}
+
+.footer{
+	width: 100%;
+	padding: 1em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #333;
+	color: white;
+}
+.title{
+	color:white;
+	text-align: center;
+	padding-bottom: 0.5em;
+}
+input{
+	padding: 0.5em;
+	margin-top: 0.5em;
+}
+
+@media (max-width: 768){
+	.item-tile{
+		width: 100%;
+	}
+}
+​
+@media screen and (min-width: 769px){
+	.item-tile{
+		width: 30%;
+	}
+}
