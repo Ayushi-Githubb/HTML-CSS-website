@@ -1,43 +1,41 @@
 *{
   box-sizing: border-box;
 }
-
-
 nav {
-    width: 100%;
-    overflow: auto;
-  }
+  width: 100%;
+  overflow: auto;
+}
 nav ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    overflow: hidden;
-    background-color: #333;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: #333;
 } 
 nav li {
-    float: left;
-  }
-  
+  float: left;
+}
+
 nav a {
-    width: 120px;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 20px 10px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
+  width: 120px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
 nav a:hover:not(.active) {
-   background-color: #111;
-  }
-  
+ background-color: #111;
+}
+
 .active {
-    background-color: #04AA6D;
-  }
+  background-color: #04AA6D;
+}
 
 h1{
     text-shadow: 2px 2px 5px red;
@@ -58,13 +56,11 @@ img#volley{
     margin-right: auto;
     width: 50%;
     padding: 1em;
-  
 }
 .body{
     margin: 3em;
 }
 body{
-    
     background-color: rgb(204, 198, 198);
     text-align: justify;
 }
@@ -87,10 +83,11 @@ h2#heading{
   font-family: Georgia, serif;
   font-size: 30px;
 }
+
 p{
-  
   font-size: 16px;
 }
+
 .imgright{
   float: right;
   margin: 0px 3px 15px 25px ;
@@ -133,15 +130,16 @@ input{
 	padding: 0.5em;
 	margin-top: 0.5em;
 }
+@media (max-width: 800px) {
+  *{
+    
+    max-width: 50%;
+  }
+}
+@media (max-width: 600px) {
+  *{
+    
+    max-width: 100%;
+  }
+}
 
-@media (max-width: 768){
-	.item-tile{
-		width: 100%;
-	}
-}
-​
-@media screen and (min-width: 769px){
-	.item-tile{
-		width: 30%;
-	}
-}
